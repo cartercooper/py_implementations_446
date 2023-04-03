@@ -133,7 +133,6 @@ def main():
 
 
 
-
     dehli = pd.read_csv('dehli.csv', names=['humidity', 'temp', 'last-1', 'last', 'dew']).tail(730)
 
     start = time.time()
